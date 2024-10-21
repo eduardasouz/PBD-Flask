@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Nome:</h1>
-    <h2>{{n}}</h2>
+    <form action="/envio" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <button type="submit">Enviar</button>
+    
+    </form>
 </body>
 </html>
